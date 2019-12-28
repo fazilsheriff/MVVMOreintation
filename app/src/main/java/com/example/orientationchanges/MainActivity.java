@@ -27,6 +27,9 @@ Button btnclick;
         setSupportActionBar(toolbar);
 
 
+
+
+
         textView=(EditText) findViewById(R.id.tvCount);
         textView.setText(String.valueOf(clickCount));
         btnclick=(Button)findViewById(R.id.btnClick);
